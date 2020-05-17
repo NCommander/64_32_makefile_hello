@@ -15,7 +15,7 @@ build/release32/hello: build/obj32/hello.obj32
 build/release64/hello: build/obj64/hello.obj64
 	$(CC_64) $< -o build/release64/hello
 
-.PHONY: all make_build_dir build/release_32/hello build/release_64/hello
+.PHONY: all make_build_dir
 
 HELLO_SRC: hello.c
 
